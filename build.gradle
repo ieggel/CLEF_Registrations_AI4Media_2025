@@ -1,0 +1,71 @@
+
+plugins {
+	// Used for java compilation and testing
+    id 'java'
+    // Facilitates creating an executable JVM application
+    id  'application'
+}
+
+repositories {
+	// Repo from which deps are pulled
+    mavenCentral()
+}
+
+application {
+    mainClass = 'ch.hevs.medgift.imageclef2025.registration.Main'
+}
+
+
+
+compileJava   {
+	//------------------------------------------------------------------------
+	/*
+	 Java source and target compatibility
+	 More info here:
+	 https://www.baeldung.com/gradle-sourcecompatiblity-vs-targetcompatibility
+	*/
+	
+ 	// requires this java version for the code
+ 	// only features of this version or below are supported
+ 	// basically means -> compiled with this version
+ 	sourceCompatibility = '21'
+ 	// requires this or higher java version to be run
+ 	// basically means -> runs with this version or higher
+ 	targetCompatibility = '21'
+ 	//------------------------------------------------------------------------
+
+}
+
+test {
+	// Enable JUnit for use with gradle
+	// $ ./gradlew test
+	// Executes all test by default (can be filtered)
+    useJUnitPlatform()
+
+//    testLogging {
+//   		// Show passed tests
+//        events "passed"
+//        // Show failed tests
+//        events "failed"
+//        exceptionFormat "short"
+//    }
+}
+
+dependencies {
+    // api => dependency is exported to consumers, that is to say found on their compile classpath.
+	// implementation => dependency is used internally, and not exposed to consumers on their own compile classpath.
+    // more info here: https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management
+    
+    implementation 'com.opencsv:opencsv:5.7.1'
+    
+    implementation 'org.json:json:20231013'
+    
+    compileOnly 'org.projectlombok:lombok:1.18.36'
+	annotationProcessor 'org.projectlombok:lombok:1.18.36'
+	
+	testCompileOnly 'org.projectlombok:lombok:1.18.36'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.36'
+
+    // Use JUnit test framework
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'    
+}

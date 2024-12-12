@@ -1,0 +1,239 @@
+{
+    "responseCode": 200,
+    "message": "success",
+    "content": [
+        {
+            "id": "6097467307619035767",
+            "form_id": "243262631549357",
+            "ip": "86.121.140.167",
+            "created_at": "2024-12-11 12:18:50",
+            "status": "ACTIVE",
+            "new": "0",
+            "flag": "0",
+            "notes": "",
+            "updated_at": "2024-12-11 12:19:24",
+            "answers": {
+                "3": {
+                    "name": "team",
+                    "order": "2",
+                    "text": "Team",
+                    "type": "control_textbox",
+                    "answer": "AIMultimediaLab"
+                },
+                "4": {
+                    "name": "person",
+                    "order": "3",
+                    "text": "Full Name",
+                    "type": "control_textbox",
+                    "answer": "Cristian STANCIU"
+                },
+                "5": {
+                    "name": "country",
+                    "order": "4",
+                    "text": "Country",
+                    "type": "control_dropdown",
+                    "answer": "Romania"
+                },
+                "6": {
+                    "name": "email",
+                    "order": "5",
+                    "text": "Email",
+                    "type": "control_email",
+                    "answer": "stanciu.cristi12@gmail.com"
+                },
+                "8": {
+                    "name": "tasks",
+                    "order": "9",
+                    "text": "Tasks",
+                    "type": "control_checkbox",
+                    "answer": [
+                        "ImageCLEFmed Caption",
+                        "ImageCLEFmed MEDVQA",
+                        "ImageCLEFmed MEDIQA-MAGIC",
+                        "ImageCLEFmed GANs",
+                        "ImageCLEFtoPicto",
+                        "MultimodalReasoning"
+                    ],
+                    "prettyFormat": "ImageCLEFmed Caption; ImageCLEFmed MEDVQA; ImageCLEFmed MEDIQA-MAGIC; ImageCLEFmed GANs; ImageCLEFtoPicto; MultimodalReasoning"
+                },
+                "11": {
+                    "name": "entityPostal",
+                    "order": "7",
+                    "text": "Entity postal address",
+                    "type": "control_textbox",
+                    "answer": "Splaiul Independentei, 313"
+                },
+                "13": {
+                    "name": "affiliation",
+                    "order": "6",
+                    "text": "Affiliation",
+                    "type": "control_textbox",
+                    "answer": "National University of Science and Technology Politehnica Bucharest"
+                }
+            },
+            "workflowInstanceID": "16033753076876153338",
+            "workflowStatus": "APPROVED",
+            "workflowStatusDetails": {
+                "buttonColor": "#01bd6f",
+                "text": "APPROVED",
+                "showOutcome": true
+            }
+        },
+        {
+            "id": "6097466967612704319",
+            "form_id": "243262631549357",
+            "ip": "86.121.140.167",
+            "created_at": "2024-12-11 12:18:16",
+            "status": "ACTIVE",
+            "new": "0",
+            "flag": "0",
+            "notes": "",
+            "updated_at": "2024-12-11 12:19:42",
+            "answers": {
+                "3": {
+                    "name": "team",
+                    "order": "2",
+                    "text": "Team",
+                    "type": "control_textbox",
+                    "answer": "AIMultimediaLab"
+                },
+                "4": {
+                    "name": "person",
+                    "order": "3",
+                    "text": "Full Name",
+                    "type": "control_textbox",
+                    "answer": "Alexandra ANDREI"
+                },
+                "5": {
+                    "name": "country",
+                    "order": "4",
+                    "text": "Country",
+                    "type": "control_dropdown",
+                    "answer": "Romania"
+                },
+                "6": {
+                    "name": "email",
+                    "order": "5",
+                    "text": "Email",
+                    "type": "control_email",
+                    "answer": "andrei.alexandra96@yahoo.com"
+                },
+                "8": {
+                    "name": "tasks",
+                    "order": "9",
+                    "text": "Tasks",
+                    "type": "control_checkbox",
+                    "answer": [
+                        "ImageCLEFmed GANs"
+                    ],
+                    "prettyFormat": "ImageCLEFmed GANs"
+                },
+                "11": {
+                    "name": "entityPostal",
+                    "order": "7",
+                    "text": "Entity postal address",
+                    "type": "control_textbox",
+                    "answer": "Splaiul Independentei, 313"
+                },
+                "13": {
+                    "name": "affiliation",
+                    "order": "6",
+                    "text": "Affiliation",
+                    "type": "control_textbox",
+                    "answer": "National University of Science and Technology Politehnica Bucharest"
+                }
+            },
+            "workflowInstanceID": "16033749672876163479",
+            "workflowStatus": "APPROVED",
+            "workflowStatusDetails": {
+                "buttonColor": "#01bd6f",
+                "text": "APPROVED",
+                "showOutcome": true
+            }
+        },
+        {
+            "id": "6097465537614397719",
+            "form_id": "243262631549357",
+            "ip": "86.121.140.167",
+            "created_at": "2024-12-11 12:15:53",
+            "status": "ACTIVE",
+            "new": "0",
+            "flag": "0",
+            "notes": "",
+            "updated_at": "2024-12-11 12:20:11",
+            "answers": {
+                "3": {
+                    "name": "team",
+                    "order": "2",
+                    "text": "Team",
+                    "type": "control_textbox",
+                    "answer": "AIMultimediaLab"
+                },
+                "4": {
+                    "name": "person",
+                    "order": "3",
+                    "text": "Full Name",
+                    "type": "control_textbox",
+                    "answer": "Liviu \u0218TEFAN"
+                },
+                "5": {
+                    "name": "country",
+                    "order": "4",
+                    "text": "Country",
+                    "type": "control_dropdown",
+                    "answer": "Romania"
+                },
+                "6": {
+                    "name": "email",
+                    "order": "5",
+                    "text": "Email",
+                    "type": "control_email",
+                    "answer": "stefan.liviu.daniel@gmail.com"
+                },
+                "8": {
+                    "name": "tasks",
+                    "order": "9",
+                    "text": "Tasks",
+                    "type": "control_checkbox",
+                    "answer": [
+                        "ImageCLEFmed Caption",
+                        "ImageCLEFmed MEDVQA",
+                        "ImageCLEFtoPicto",
+                        "MultimodalReasoning"
+                    ],
+                    "prettyFormat": "ImageCLEFmed Caption; ImageCLEFmed MEDVQA; ImageCLEFtoPicto; MultimodalReasoning"
+                },
+                "11": {
+                    "name": "entityPostal",
+                    "order": "7",
+                    "text": "Entity postal address",
+                    "type": "control_textbox",
+                    "answer": "Splaiul Independentei, 313"
+                },
+                "13": {
+                    "name": "affiliation",
+                    "order": "6",
+                    "text": "Affiliation",
+                    "type": "control_textbox",
+                    "answer": "National University of Science and Technology Politehnica Bucharest"
+                }
+            },
+            "workflowInstanceID": "16033735397876166800",
+            "workflowStatus": "APPROVED",
+            "workflowStatusDetails": {
+                "buttonColor": "#01bd6f",
+                "text": "APPROVED",
+                "showOutcome": true
+            }
+        }
+    ],
+    "duration": "57.92ms",
+    "info": null,
+    "resultSet": {
+        "offset": 0,
+        "limit": 1000,
+        "orderby": "created_at",
+        "count": 3
+    },
+    "limit-left": 997
+}
