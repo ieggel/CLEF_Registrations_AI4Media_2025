@@ -49,4 +49,8 @@ is the same used by eclipse itself, otherwise 2 gradle versions might be present
 
 
 # TODO
-TELL NICCOLA TO DELETE THE FOLLOWING ENTRIES IN THE CLEF REGISTRATIONS
+TELL NICCOLA TO DELETE THE FOLLOWING ENTRIES IN THE CLEF REGISTRATIONS:
+- stefan.liviu.daniel@gmail.com
+- stanciu.cristi12@gmail.com
+- agentili@ucsd.edu
+- andrei.alexandra96@yahoo.com
