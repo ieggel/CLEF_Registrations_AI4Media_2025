@@ -20,7 +20,8 @@ public class Config {
 	public final static String GAN_TASK = "ImageCLEFmed GANs";
 	public final static String VQA_TASK = "ImageCLEFmed MEDVQA";
 	public final static String MEDIQA_TASK = "ImageCLEFmed MEDIQA-MAGIC";
-	public final static String TOUCHE_ARGUMENT_TASK = "Touché-Argument-Images";
+	// Argument task uses their own registration/submission
+	// public final static String TOUCHE_ARGUMENT_TASK = "Touché-Argument-Images";
 	public final static String TOPICTO_TASK = "ImageCLEFtoPicto";
 	public final static String MULTIOMODAL_REASON_TASK = "MultimodalReasoning";
 
@@ -37,8 +38,6 @@ public class Config {
 			new AbstractMap.SimpleEntry<String, String>(VQA_TASK, "imageclef_task1"),
 			// ImageCLEFmed Mediqa-Magic
 			new AbstractMap.SimpleEntry<String, String>(MEDIQA_TASK, "imageclef_task1"),
-			// Touché-Argument-Images
-			new AbstractMap.SimpleEntry<String, String>(TOUCHE_ARGUMENT_TASK, "imageclef_task2"),
 			// ToPicto
 			new AbstractMap.SimpleEntry<String, String>(TOPICTO_TASK, "imageclef_task3"),
 			// MultimodalReasoning
@@ -54,8 +53,6 @@ public class Config {
 			new AbstractMap.SimpleEntry<String, String>(VQA_TASK, MEDICAL_TASK),
 			// ImageCLEFmed Mediqa-Magic
 			new AbstractMap.SimpleEntry<String, String>(MEDIQA_TASK, MEDICAL_TASK),
-			// Touché-Argument-Images
-			new AbstractMap.SimpleEntry<String, String>(TOUCHE_ARGUMENT_TASK, TOUCHE_ARGUMENT_TASK),
 			// ToPicto
 			new AbstractMap.SimpleEntry<String, String>(TOPICTO_TASK, TOPICTO_TASK),
 			// MultimodalReasoning

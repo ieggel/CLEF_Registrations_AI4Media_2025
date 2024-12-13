@@ -14,8 +14,7 @@ public class ConfigTest {
 
 		var tasks = new ArrayList<String>(Config.TASK_AI4MEDIA_TO_HTTP_PARAM.keySet());
 
-		var expected = List.of(Config.MEDICAL_TASK, Config.TOUCHE_ARGUMENT_TASK, Config.TOPICTO_TASK,
-				Config.MULTIOMODAL_REASON_TASK);
+		var expected = List.of(Config.MEDICAL_TASK, Config.TOPICTO_TASK, Config.MULTIOMODAL_REASON_TASK);
 
 		var actual = Config.mapTasksToOfficialTasks(tasks);
 
