@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-public class AI4MediaFieldsText {
+public class AI4MediaFieldsTest {
 
 	@Test
 	public void shouldReturnFieldNamesByKey() {
