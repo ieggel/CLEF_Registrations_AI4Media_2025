@@ -9,8 +9,6 @@ import com.opencsv.exceptions.CsvValidationException;
 import ch.hevs.medgift.imageclef2025.registration.entities.AI4MediaRegistration;
 import ch.hevs.medgift.imageclef2025.registration.read.AI4MediaRegistrations;
 import ch.hevs.medgift.imageclef2025.registration.read.AI4MediaRegistrationsTest;
-import ch.hevs.medgift.imageclef2025.registration.send.ClefRegistrationSendException;
-import ch.hevs.medgift.imageclef2025.registration.send.ClefRegistrations;
 
 /*
  * INTEGRATION TEST

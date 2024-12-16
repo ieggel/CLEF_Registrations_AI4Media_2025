@@ -13,7 +13,6 @@ import org.junit.jupiter.api.Test;
 
 import ch.hevs.medgift.imageclef2025.registration.config.Config;
 import ch.hevs.medgift.imageclef2025.registration.entities.AI4MediaRegistration;
-import ch.hevs.medgift.imageclef2025.registration.send.ParticipantRegistrationHttpParams;
 
 public class ParticipantRegistrationHttpParamsTest {
 

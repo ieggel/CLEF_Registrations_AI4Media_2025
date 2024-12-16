@@ -7,8 +7,6 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 
-import ch.hevs.medgift.imageclef2025.registration.config.AI4MediaFields;
-
 public class AI4MediaFieldsText {
 
 	@Test
