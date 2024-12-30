@@ -11,7 +11,10 @@ public class Config {
 
 	// public final static String URL_AI4MEDIA_REGS =
 	// "https://support.aimultimedialab.ro/imageclef/getImageCLEF2024Registrations.php?apiKey=3154948189c077bc9c7f1fa1722ed2ae&formId=233444340721347&api=true&filter=%7B%22workflowStatus%22:%22APPROVED%22%7D";
+	// public final static String URL_AI4MEDIA_REGS =
+	// "https://support.aimultimedialab.ro/imageclef/getImageCLEF2024Registrations.php?apiKey=3154948189c077bc9c7f1fa1722ed2ae&formId=243262631549357&api=true&filter=%7B%22workflowStatus%22:%22APPROVED%22%7D";
 	public final static String URL_AI4MEDIA_REGS = "https://support.aimultimedialab.ro/imageclef/getImageCLEF2024Registrations.php?apiKey=3154948189c077bc9c7f1fa1722ed2ae&formId=243262631549357&api=true&filter=%7B%22workflowStatus%22:%22APPROVED%22%7D";
+
 	public final static String AI4MEDIA_CONTENT_KEY = "content";
 	public final static String AI4MEDIA_VALUE_ARRAY_KEY = "answers";
 	public final static String AI4MEDIA_VALUE_KEY = "answer";
